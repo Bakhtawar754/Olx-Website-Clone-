@@ -1,0 +1,800 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  color: black;
+}
+
+.header{
+  background-color: #f7f8f7;
+  color: black;
+  width: 100%;
+ }
+.head-01{
+  display: flex;
+  justify-content: space-around;
+ }
+.logo{
+  padding: 20px;
+  margin: 20px;
+}
+.link-01{
+  font-weight: bold;
+  margin: 30px;
+}
+.link-02{
+  font-weight: bold;
+  margin: 30px;
+ }
+ .motor{
+   text-decoration: none;
+   color: black;
+   font-size: 18px;
+ }
+  .property{
+   text-decoration: none;
+   color: black;
+   font-size: 18px;
+ }
+.fa-car{
+ margin: 20px;
+ font-size: 30px;
+ border: 0px solid black;
+ padding: 12px;
+ border-radius: 50%;
+ background: #e0e0e0;
+}
+.fa-building{
+ margin: 20px;
+ font-size: 30px;
+ border: 0px solid black;
+ padding: 14px;
+ border-radius: 50%;
+ background: #e0e0e0;
+}
+.head-02{
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+.dropdown{
+  padding: 15px;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  margin: 5px;
+}
+.inputtype{
+  padding: 15px;
+  width: 350px;
+  border: 1px solid black;
+  border-radius: 5px;
+  position: relative;
+}
+.fa-search{
+  background-color: black;
+  color: white;
+  width: 64px;
+  height: 64px;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 25px;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+}
+
+.logbutton{
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  gap: 60px;
+  justify-content: space-around;
+}
+.login{
+  margin-top: 15px;
+  margin-left: 90px;
+  color: black;
+  font-size: 25px; 
+  text-decoration: none;
+}
+
+.button1{
+  width: 150px;
+  padding: 5px;
+  border-radius: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  border-color: blue lime
+  blue yellow;
+  border-width: 7px;
+}
+.ads01{
+ margin-top: 150px;
+ width: 100%;
+}
+.ads02{
+  margin: 30px;
+  align-items: center;
+}
+
+.categories{
+  margin-top: 100px;
+  font-size: 40px;
+  font-style: normal;
+  padding: 50px;
+  color: black;
+}
+.items{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  text-decoration: none;
+}
+.itemmobile{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+}
+.mobile{
+    border-radius: 50%;
+}
+.mob{
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  
+}
+.itemcar{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+}
+
+.car{
+  border-radius: 50%;
+}
+.car1{
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+  
+}
+
+.itemhouse{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+}
+
+.house{
+  
+  border-radius: 50%;
+}
+.house1{
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  
+}
+
+.itemrent{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+}
+.rent{
+  border-radius: 50%;
+}
+.rent1{
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  width: 120px;
+ height: 60px;
+ 
+}
+
+.itemsale{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+}
+.sale{
+  border-radius: 50%;
+}
+.sale1{
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+   width: 120px;
+ height: 60px;
+  
+}
+
+
+.itemelectronics{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+}
+
+.electronics{
+  border-radius: 50%;
+}
+.electronics1{
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  width: 160px;
+ height: 80px;
+  
+}
+
+
+.itembuisness{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+}
+.buisness{
+  border-radius: 50%;
+}
+.buisness1{
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  width: 160px;
+ height: 80px;
+  
+  
+}
+
+
+
+.itemservices{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+  
+}
+.services{
+  border-radius: 50%;
+}
+.services1{
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  
+}
+
+
+
+.itemjobs{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+}
+.jobs{
+  border-radius: 50%;
+}
+.jobs1{
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+
+.itemanimals{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+}
+.animals{
+  border-radius: 50%;
+}
+.animals1{
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px
+}
+
+.itemfurniture{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+}
+
+.furniture{
+  border-radius: 50%;
+}
+.furniture1{
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+}
+
+.itemfashion{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+}
+.fashion{
+  border-radius: 50%;
+}
+.fashion1{
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  width: 120px;
+ height: 60px;
+}
+
+.itembooks{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+}
+.books{
+  border-radius: 50%;
+}
+.books1{
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  width: 120px;
+ height: 60px;
+}
+
+.itemkids{
+  
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+}
+.kids{
+  border-radius: 50%;
+}
+.kids1{
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+}
+.mobileheading{
+  margin: 30px;
+}
+
+.card{
+      width: 20rem; 
+      height: 43rem; 
+      margin: 20px; 
+      border: 1px solid black;
+}
+
+.card-text1{
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 5px;
+}
+.card-location1{
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 5px;
+}
+.fa-heart-o{
+  float: right;
+}
+
+.card-img-top{
+  height: 30rem;
+}
+.sellMobile{
+  display: flex;
+ flex-direction: row;
+}
+
+.carheading{
+  margin: 30px;
+  margin-top: 50px;
+  
+}
+.sellcar{
+  
+  display: flex;
+  flex-direction: row;
+}
+
+.bikeheading{
+  margin: 30px;
+  margin-top: 50px;
+  
+}
+
+.sellbike{
+  display: flex;
+  flex-direction: row;
+}
+
+.househeading{
+  margin: 30px;
+  margin-top: 50px;
+  
+}
+
+.sellhouse{
+  display: flex;
+  flex-direction: row;
+}
+
+.footer01{
+  display: flex;
+  background-color: #ebeeef;
+  gap: 50px;
+  margin: 20px;
+}
+.footerlist{
+  text-decoration: none;
+  color: #6c6c6c;
+}
+.footerlist:hover{
+  color: black;
+}
+.list01{
+  list-style-type: none;
+}
+.popular-categories{
+  font-weight: bold;
+  margin: 10px;
+}
+
+
+.footericonshead{
+  text-align: right;
+  margin-top: 50px;
+  margin: 20px;
+ 
+  
+}
+.footericons{
+  padding: 5px;
+  font-size: 30px;
+  float: right;
+  border: 1px solid black;
+  margin-top: 50px;
+  border-radius: 60%;
+  margin: 20px;
+  
+}
+
+
+
+.footerbuttons{
+ 
+  text-align: right;
+  padding-top: 140px;
+ 
+ 
+}
+
+.lastpara{
+  width: 100%;
+  height: 30px;
+  background-color: #002f34;
+  margin-top: 20px;
+  
+ 
+}
+
+.lasttext{
+  color: #ebeeef;
+  text-align: right;
+  font-weight: bold;
+  margin: 10px;
+
+
+  
+}
+.footerend{
+  background-color: #f7f8f7;
+}
+
+
+@media only screen and (max-width: 786px) {
+  
+ .logo{
+    padding: 10px;
+    margin: 10px;
+  }
+ .imagelogo{
+   width: 50px;
+  }
+  .link-01{
+    margin: 15px;
+  }
+ .link-02{
+    margin: 15px;
+  }
+  .motor{
+    font-size: 10px;
+  }
+  .property{
+    font-size: 10px;
+  }
+  .fa-car{
+    margin: 10px;
+    font-size: 18px;
+  }
+ .fa-building{
+    margin: 10px;
+    font-size: 18px;
+  }
+  .head-02{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .dropdown{
+    border: none;
+    font-weight: bolder;
+    width: 180px;
+    padding: 10px;
+    font-size: 15px;
+  }
+ .inputtype{
+   padding: 2px;
+   width: 320px;
+   border-radius: 2px
+   
+ }
+ .fa-search{
+   width: 35px;
+   height: 35px;
+   border-radius: 2px;
+   padding: 2px;
+   font-size: 10px;
+ }
+  .login{
+    display: none;
+  }
+  .button1{
+    font-size: 12px;
+    height: 40px;
+    width: 90px;
+    margin-top: 20px;
+  }
+  .ads01{
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+  }
+  .ads02{
+    display: none;
+  }
+  
+  .categories{
+    font-size: 15px;
+    margin-top: 30px;
+    padding: 10px;
+  }
+  .items{
+    display: flex;
+  gap: 5px;
+  
+  }
+  .mobile{
+    width: 70px;
+    height: 70px;
+  }
+  
+  .mob{
+    font-size: 10px;
+  }
+  .car1{
+    font-size: 10px;
+  }
+  .car{
+    width: 70px;
+    height: 70px;
+  }
+  
+  .house1{
+    font-size: 10px;
+  }
+  .house{
+    width: 70px;
+    height: 70px;
+  }
+   .rent1{
+    font-size: 10px;
+    width: 60px;
+    height: 20px;
+  }
+  .rent{
+    width: 70px;
+    height: 70px;
+  }
+    .sale1{
+    font-size: 10px;
+    width: 60px;
+    height: 20px;
+  }
+  .sale{
+    width: 70px;
+    height: 70px;
+  }
+  .electronics1{
+    font-size: 10px;
+    width: 60px;
+    height: 20px;
+  }
+  .electronics{
+    width: 70px;
+    height: 70px;
+  }
+    .buisness1{
+    font-size: 10px;
+    width: 60px;
+    height: 20px;
+  }
+  .buisness{
+    width: 70px;
+    height: 70px;
+  }
+    .services1{
+    font-size: 10px;
+  }
+  .services{
+    width: 70px;
+    height: 70px;
+  }
+    .jobs1{
+    font-size: 10px;
+  }
+  .jobs{
+    width: 70px;
+    height: 70px;
+  }
+    .animals1{
+    font-size: 10px;
+  }
+  .animals{
+    width: 70px;
+    height: 70px;
+  }
+    .furniture1{
+    font-size: 10px;
+  }
+  .furniture{
+    width: 70px;
+    height: 70px;
+  }
+    .fashion1{
+    font-size: 10px;
+    width: 60px;
+    height: 20px;
+  }
+  .fashion{
+    width: 70px;
+    height: 70px;
+  }
+    .books1{
+    font-size: 10px;
+    width: 60px;
+    height: 20px;
+  }
+  .books{
+    width: 70px;
+    height: 70px;
+  }
+    .kids1{
+    font-size: 10px;
+  }
+  .kids{
+    width: 70px;
+    height: 70px;
+  }
+  
+  .mobileheading{
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .card-img-top{
+    height: 20rem;
+ 
+  }
+  .card-title{
+    font-size: 15px;
+  }
+  .card-text1{
+    font-size: 5px;
+    padding: 2px;
+  }
+  .card-location1{
+    font-size: 13px;
+  }
+  .card-time1{
+  font-size: 10px;
+  }
+  .card{
+    width: 18rem;
+    height: 30rem;
+    margin: 15px;
+  
+  }
+  .sellMobile{
+    flex-direction: column;
+    
+  }
+  .sellcar{
+    flex-direction: column;
+  }
+  .sellhouse{
+    flex-direction: column;
+  }
+  .sellbike{
+    flex-direction: column;
+  }
+  .ads03{
+    height: 100px;
+    width: 100%;
+  }
+  .footerlist{
+    font-size: 10px;
+ 
+  }
+  .footer01{
+    gap: 10px;
+    margin: 10px;
+    width: 100%;
+    height: 220px;
+  }
+  .popular-categories{
+    font-size: 8px;
+  }
+  .iconhead{
+    font-size: 10px;
+  }
+  .footericons{
+    font-size: 12px;
+    margin: 8px;
+  }
+  .footerbuttons{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    float: right;
+  }
+  .buttonimg{
+    width: 70px;
+    
+  }
+  .lastpara{
+    height: 20px;
+    margin-top: 120px;
+  }
+  .lasttext{
+    font-size: 8px;
+    padding-top: 5px;
+  }
+  .header{
+    background-color: none;
+  }
+
+}
